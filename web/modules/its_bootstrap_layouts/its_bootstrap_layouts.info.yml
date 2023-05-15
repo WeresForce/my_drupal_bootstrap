@@ -1,0 +1,5 @@
+name: its_bootstrap_layouts
+type: module
+description: Handles Bootstrap Layouts
+package: Custom
+core_version_requirement: ^9 || ^10
