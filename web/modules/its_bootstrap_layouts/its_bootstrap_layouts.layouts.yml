@@ -2,7 +2,7 @@ bs_row:
   label: 'BS row'
   path: layouts/bs_row
   template: layout--bs-row
-  class: '\Drupal\its_bootstrap_layoutsgit pull\Plugin\Layout\BsRowLayout'
+  class: '\Drupal\its_bootstrap_layouts\Plugin\Layout\BsRowLayout'
   category: 'ITS Bootstrap'
   default_region: content
   icon_map:
