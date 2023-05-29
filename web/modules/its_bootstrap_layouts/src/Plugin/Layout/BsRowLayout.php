@@ -23,7 +23,6 @@ class BsRowLayout extends MultiWidthLayoutBase
       '2-col' => '2 column',
       '3-col' => '3 column',
       '4-col' => '4 column',
-      '5-col' => '5 column',
     ];
   }
 
@@ -43,9 +42,9 @@ class BsRowLayout extends MultiWidthLayoutBase
   protected function getColumnWidth() {
     $col = [
       '1-col' => 'col-lg-12 mb-4',
-      '2-col' => 'col-lg-12 mb-4',
-      '3-col' => 'col-lg-12 mb-4',
-      '4-col' => 'col-lg-12 mb-4',
+      '2-col' => 'col-lg-6 mb-4',
+      '3-col' => 'col-lg-4 mb-4',
+      '4-col' => 'col-lg-3 mb-4',
     ];
 
     return $col[$this->configuration['column_widths']];

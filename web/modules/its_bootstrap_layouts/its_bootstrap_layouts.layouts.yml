@@ -11,3 +11,15 @@ bs_row:
     content:
       label: Content
 
+bs_carousel:
+  label: 'BS Carousel'
+  path: layouts/bs_carousel
+  template: layout--bs-carousel
+  category: 'ITS Bootstrap'
+  default_region: content
+  icon_map:
+    - [content]
+  regions:
+    content:
+      label: Content
+
